@@ -3,6 +3,7 @@ jdk:
   - openjdk8
 
 script: ./mvnw clean install
+script: ./mvnw -Pfull clean install
 
 
 jobs:
